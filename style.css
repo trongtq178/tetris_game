@@ -1,0 +1,32 @@
+body {
+    background-image: url("./images/background.jpg");
+}
+
+canvas {
+    border: 1px solid burlywood; 
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    height: 70px;
+    width: 50%;
+    min-width: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    url("./images/title.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: monospace;
+    padding: 20px 0;
+}
+
+#game_space {
+    margin: 0 auto;
+    background-color: beige;
+    width: 50%;
+    height: 400px;
+    min-width: 500px;
+}
